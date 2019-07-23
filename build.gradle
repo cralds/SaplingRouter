@@ -18,7 +18,10 @@ allprojects {
     repositories {
         google()
         jcenter()
-        
+        mavenLocal()
+        maven{
+            url 'file:////Users/sudan/.m2/repository/'
+        }
     }
 }
 

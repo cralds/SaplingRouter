@@ -35,3 +35,30 @@ dependencies {
     annotationProcessor project(':annotationprocessor')
     implementation project(':routemanager')
 }
+
+repositories {
+    mavenCentral()
+    google()
+}
+
+apply plugin: 'maven'
+
+uploadArchives {
+    repositories.mavenDeployer {
+        repository(url: 'file:////Users/sudan/.m2/repository/')
+        pom.groupId = "com.sapling.router"
+        pom.artifactId = "login"
+        pom.version = "1.0.0"
+        pom.project{
+            description "login module"
+            packaging "jar"
+            name "loginmodule"
+        }
+    }
+    task androidSourcesJar(type: Jar) {
+        from android.sourceSets.main.java.sourceFiles
+    }
+    artifacts {
+        archives androidSourcesJar
+    }
+}

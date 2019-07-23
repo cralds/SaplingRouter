@@ -35,6 +35,7 @@ dependencies {
     implementation project(':routemanager')
     api 'com.alibaba:arouter-api:1.4.1'
     annotationProcessor "com.alibaba:arouter-compiler:1.2.2"
-    implementation project(':loginmodule')
+//    implementation project(':loginmodule')
     implementation project(':minemodule')
+    implementation "com.sapling.router:login:1.0.0@aar"
 }
