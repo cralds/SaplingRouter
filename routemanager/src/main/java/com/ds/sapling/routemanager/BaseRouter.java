@@ -29,6 +29,7 @@ public abstract class BaseRouter implements IRouter {
         if (bundle != null){
             intent.putExtras(bundle);
         }
+        intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         context.startActivity(intent);
     }
 

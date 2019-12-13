@@ -1,0 +1,8 @@
+ext{
+    android = [
+            minSdkVersion : 19
+    ]
+    dependencies = [
+            arouter : "1.0.2"
+    ]
+}
