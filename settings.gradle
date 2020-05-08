@@ -1,1 +1,1 @@
-include ':app', ':annotation', ':annotationprocessor', ':routemanager', ':loginmodule', ':minemodule'
+include ':app', ':annotation', ':annotationprocessor', ':routemanager', ':loginmodule', ':minemodule', ':mallmodule'

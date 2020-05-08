@@ -17,7 +17,7 @@
         android:id="@+id/tvLogin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="tologin"
+        android:text="toLoginPage"
         android:padding="15dp"
         android:background="#fff"
         />
@@ -26,7 +26,7 @@
         android:id="@+id/tvRegister"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="toRegister"
+        android:text="toRegisterPage"
         android:padding="15dp"
         android:background="#fff"
         android:layout_marginTop="1dp"
